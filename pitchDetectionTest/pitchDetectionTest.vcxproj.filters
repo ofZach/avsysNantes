@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\pitchDetection\autocorrelation\autocorrelation.cpp">
+			<Filter>src\pitchDetection\autocorrelation</Filter>
+		</ClCompile>
+		<ClCompile Include="src\pitchDetection\dft\dft.cpp">
+			<Filter>src\pitchDetection\dft</Filter>
+		</ClCompile>
+		<ClCompile Include="src\pitchDetection\goertzel\goertzel.cpp">
+			<Filter>src\pitchDetection\goertzel</Filter>
+		</ClCompile>
+		<ClCompile Include="src\pitchDetection\helper\helper.cpp">
+			<Filter>src\pitchDetection\helper</Filter>
+		</ClCompile>
+		<ClCompile Include="src\pitchDetection\mpm\mpm.cpp">
+			<Filter>src\pitchDetection\mpm</Filter>
+		</ClCompile>
+		<ClCompile Include="src\pitchDetection\sinewave\sinegenerator.cpp">
+			<Filter>src\pitchDetection\sinewave</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\pitchDetection">
+			<UniqueIdentifier>{646C55E2-9DD6-2A05-EC3F-F5B4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\pitchDetection\autocorrelation">
+			<UniqueIdentifier>{2117B181-3AA8-E06B-9A9C-3C29}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\pitchDetection\dft">
+			<UniqueIdentifier>{4ABC44E5-A0E3-36D5-FF23-C663}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\pitchDetection\goertzel">
+			<UniqueIdentifier>{3AB16644-848A-B39D-AD86-42AB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\pitchDetection\helper">
+			<UniqueIdentifier>{DF80073C-113B-6EFF-5F6A-1793}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\pitchDetection\mpm">
+			<UniqueIdentifier>{CE82DE2B-0EA2-ADA4-C882-5267}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\pitchDetection\sinewave">
+			<UniqueIdentifier>{C51DDBBC-FD34-10B4-DB0A-26B9}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\pitchDetection\autocorrelation\autocorrelation.h">
+			<Filter>src\pitchDetection\autocorrelation</Filter>
+		</ClInclude>
+		<ClInclude Include="src\pitchDetection\dft\dft.h">
+			<Filter>src\pitchDetection\dft</Filter>
+		</ClInclude>
+		<ClInclude Include="src\pitchDetection\goertzel\goertzel.h">
+			<Filter>src\pitchDetection\goertzel</Filter>
+		</ClInclude>
+		<ClInclude Include="src\pitchDetection\helper\helper.h">
+			<Filter>src\pitchDetection\helper</Filter>
+		</ClInclude>
+		<ClInclude Include="src\pitchDetection\mpm\mpm.h">
+			<Filter>src\pitchDetection\mpm</Filter>
+		</ClInclude>
+		<ClInclude Include="src\pitchDetection\sinewave\sinegenerator.h">
+			<Filter>src\pitchDetection\sinewave</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

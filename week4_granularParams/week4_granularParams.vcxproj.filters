@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\granularSynthesis\granularGrain.cpp">
+			<Filter>src\granularSynthesis</Filter>
+		</ClCompile>
+		<ClCompile Include="src\granularSynthesis\granularManager.cpp">
+			<Filter>src\granularSynthesis</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\granularSynthesis">
+			<UniqueIdentifier>{22BE15A4-D156-8E37-4ECD-FCDB}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\granularSynthesis\granularGrain.h">
+			<Filter>src\granularSynthesis</Filter>
+		</ClInclude>
+		<ClInclude Include="src\granularSynthesis\granularManager.h">
+			<Filter>src\granularSynthesis</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
